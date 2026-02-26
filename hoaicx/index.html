@@ -14,7 +14,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #a855f7 0%, #d946ef 100%);
+            background: linear-gradient(135deg, #681310 0%, #dd2a16 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -31,7 +31,7 @@
         .glow-effect {
             position: absolute;
             inset: 0;
-            background: linear-gradient(135deg, #a855f7, #d946ef);
+            background: linear-gradient(135deg, #681310, #dd2a16);
             filter: blur(80px);
             opacity: 0.3;
             animation: glow 2s ease-in-out infinite;
@@ -50,15 +50,13 @@
         .card {
             position: relative;
             background: rgba(30, 30, 45, 0.95);
-            border-radius: 20px;
-            border: 1px solid rgba(168, 85, 247, 0.3);
             overflow: hidden;
-            box-shadow: 0 20px 60px rgba(168, 85, 247, 0.5);
+            box-shadow: 0 20px 60px #681310;
             transition: all 0.5s ease;
         }
 
         .card:hover {
-            box-shadow: 0 30px 80px rgba(168, 85, 247, 0.7);
+            box-shadow: 0 30px 80px #681310;
             transform: translateY(-5px);
         }
 
@@ -68,7 +66,7 @@
             left: 0;
             right: 0;
             height: 200px;
-            background: linear-gradient(135deg, #a855f7, #d946ef);
+            background: linear-gradient(135deg, #681310, #dd2a16);
             opacity: 0.8;
         }
 
@@ -87,7 +85,7 @@
             position: absolute;
             width: 180px;
             height: 180px;
-            background: linear-gradient(135deg, #3b82f6, #a855f7);
+            background: linear-gradient(135deg, #f7b37a, #681310);
             border-radius: 50%;
             filter: blur(30px);
             opacity: 0.6;
@@ -100,7 +98,7 @@
             width: 160px;
             height: 160px;
             border-radius: 50%;
-            border: 4px solid #a855f7;
+            border: 4px solid #681310;
             object-fit: cover;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             margin: 0 auto;
@@ -109,7 +107,7 @@
         .name {
             font-size: 2.5rem;
             font-weight: bold;
-            background: linear-gradient(135deg, #a855f7, #d946ef);
+            background: linear-gradient(135deg, #ffffff, #ffffff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -118,7 +116,7 @@
 
         .title {
             font-size: 1.3rem;
-            color: #3b82f6;
+            color: #f7b37a;
             font-weight: 500;
             margin-bottom: 30px;
         }
@@ -190,11 +188,11 @@
             transform: scale(1.1);
         }
 
-        .social-icon.facebook:hover { background: #a855f7; }
-        .social-icon.linkedin:hover { background: #3b82f6; }
-        .social-icon.twitter:hover { background: #d946ef; }
-        .social-icon.instagram:hover { background: #a855f7; }
-        .social-icon.github:hover { background: #3b82f6; }
+        .social-icon.facebook:hover { background: #681310; }
+        .social-icon.linkedin:hover { background: #f7b37a; }
+        .social-icon.twitter:hover { background: #dd2a16; }
+        .social-icon.instagram:hover { background: ##681310; }
+        .social-icon.github:hover { background: #f7b37a; }
 
         .social-icon svg {
             width: 24px;
